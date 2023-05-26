@@ -1,5 +1,5 @@
 https://juejin.cn/post/6967243012199940110
-
+https://blog.csdn.net/qq_62881798/article/details/127953266?ydreferer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8%3D
 docker部署Jenkins
 
 补充没有解析到主机的错误
