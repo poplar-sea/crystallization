@@ -11,7 +11,7 @@ var identifier type
 // 多个变量
 var identifier1, identifier2 type
 ```
-* 简写形式:= 
+* 简写形式```:=``` (```:=``` 结构不能在函数外使用；常量不能用 ```:= ```语法声明。)
 ```
 // := 是一个声明语句,可以将 var f string = "Runoob" 简写为 f := "Runoob"
  f := "Runoob" // var f string = "Runoob"
@@ -45,7 +45,7 @@ var identifier1, identifier2 type
     import "package2"
     import "package3"
 ```
-#### 2. 多个包
+#### 2. 分组导出多个包
 ```go
     import (
         "package1"
@@ -57,3 +57,13 @@ var identifier1, identifier2 type
 * ```import``` 可以取别名，将导入的包命名为另一个容易记忆的别名 （别名写在 引入包的名称前面）
 * 点```（.）```操作的含义是：点```（.）```标示的包导入后，调用该包中函数时可以省略前缀包名
 * 下划线 ```（_）```操作的含义是：导入该包，但不导入整个包，而是执行该包中的 ```init``` 函数，因此无法通过包名来调用包中的其他函数。使用下划线操作往往是为了注册包里的引擎，让外部可以方便的使用
+### 导出名
+* 在 Go 中，如果一个名字以大写字母开头，那么它就是已导出的。
+    ```go
+    import (
+	"fmt"
+        "math"
+    )
+    math.pi // 未导出的
+    math.Pi // 已导出的
+    ```

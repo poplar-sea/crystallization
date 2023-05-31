@@ -115,3 +115,4 @@ func main() {
   或
   variable_name := structure_variable_type { key1: value1, key2: value2..., keyn: valuen}
   ```
+### 1.5.5 接口类型
