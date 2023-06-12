@@ -248,3 +248,6 @@
 * ajax下载 如果后端需要对下载接口做token鉴权，此时需要使用ajax获取文件流（第六点）。 简单来说，文件下载依赖浏览器特性。前端获取到服务器端生成的字节流，此时数据是存在于js的内存中的，是不可以直接保存在本地的，利用Blob对象和window.URL.createObjectURL对象生成一个虚拟的URL地址，然后在利用浏览器的特性进行下载。 因此对于ajax下载大文件时，会出现浏览器崩溃情况，此时可以考虑使用链接直接下载或使用分片下载
 # 引用
 [前端全方案下载](https://zhuanlan.zhihu.com/p/479498676)
+[FileSaver](https://github.com/eligrey/FileSaver.js)
+[StreamSaver](https://github.com/jimmywarting/StreamSaver.js)
+[流的角度看网络请求](https://juejin.cn/post/6844904029244358670)
