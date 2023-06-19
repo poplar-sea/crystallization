@@ -1,6 +1,6 @@
 # 1. GOROOT 和 GOPATH
 * GOROOT：```GOROOT```就是```Go```的安装目录，（类似于java的JDK）
-* GOPATH：```GOPATH```是我们的工作空间,保存```go```项目代码和第三方依赖包
+* GOPATH：```GOPATH```是我们的工作空间,保存```go```项目代码和第三方依赖包，在GoModule模式出现后，基本上用来存放使用```go get```命令获取的项目
   * 保存编译后的二进制文件。
   * ```go get```和```go install```命令会下载```go```代码到```GOPATH/src```。
   * import包时的搜索路径
