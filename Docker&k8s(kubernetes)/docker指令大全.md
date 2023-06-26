@@ -1,13 +1,8 @@
-# 1. FROM 指定基础镜像
-* 所谓定制镜像，那一定是以一个镜像为基础，在其上进行定制。
-* 就像我们之前运行了一个 nginx 镜像的容器，再进行修改一样，基础镜像是必须指定的。
-* 而 <font color="#dd0000">FROM</font>就是指定 基础镜像，因此一个 Dockerfile 中  是必备的指令，**并且必须是第一条指令**
+# 构建自定义镜像
+docker build -f Dockerfile -t test-go-docker:latest .
+[build](https://blog.csdn.net/qq_33801641/article/details/120945037)
+# 构建容器
+[run](https://blog.csdn.net/qq_47346664/article/details/119887657?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168750273016800192252644%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=168750273016800192252644&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-119887657-null-null.142^v88^koosearch_v1,239^v2^insert_chatgpt&utm_term=docker%20run%20-d&spm=1018.2226.3001.4187)
 
-# 2. RUN 执行命令
-* ```RUN``` 指令是用来执行命令行命令的。
-* 由于命令行的强大能力，RUN 指令在定制镜像时是最常用的指令之一。
-* 其格式有两种：
-1. shell 格式：```RUN <命令>，就像直接在命令行中输入的命令一样```。```RUN echo '<h1>Hello, Docker!</h1>' > /usr/share/nginx/html/index.html```
-2. exec 格式：```RUN ["可执行文件", "参数1", "参数2"]，这更像是函数调用中的格式```。
-# 3. WORKDIR 指定工作目录
-* 格式为 ```WORKDIR <工作目录路径>```。
+
+docker run -d --name go_end --net=app_network_server go_end_api 

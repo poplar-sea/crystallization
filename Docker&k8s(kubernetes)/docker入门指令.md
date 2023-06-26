@@ -2,6 +2,7 @@
 ## 1.1 列出镜像
 ```docker
 docker images
+docker rmi -f imagename # 移除镜像
 ```
 ## 1.2 使用tag命令添加镜像标签
 ```docker
@@ -25,7 +26,13 @@ docker pull nginx
 ```
 ## 1.7 使用run命令运行容器
 ```docker
-docker run -d --name docker-nginx -p 8080:8080 nginx
+docker run -it -d --name docker-nginx -p 8080:8080 nginx
+
+# -i表示交互式的，表示[cmd]是一个有用户输入的程序
+# -t 产生一个终端。
+# -d 后台运行容器，并返回容器ID，此时不会进入交互界面，如果想要进入交互界面请加-i和-t参数。
+# --name 为容器指定一个名称，名字叫xxxxx；
+
 ```
 ## 1.8 使用exec命令进入容器
 ```docker
@@ -34,6 +41,7 @@ docker exec -it docker-nginx bash
 ## 1.9 查看容器
 ```docker
 docker container ls
+docker rm containername #移除容器
 ```
 ## 2.0 使用网络
 ```js
