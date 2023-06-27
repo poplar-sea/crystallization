@@ -10,7 +10,10 @@
 2. ```sudo passwd user(user是对应的用户名)。```
 3. 输入新密码，确认密码。
 4. 修改密码成功，重启，输入新密码进入Ubuntu
-
+# 查看运行版本
+```bash
+cat /etc/lsb-release
+```
 # Ubuntu文件目录详解
 ## 一级目录
 * /bin：包含普通用户和系统管理员可以共享的各种通用程序，如bash、dd、gzip、grep、mv、mkdir等常用的基本命令。
