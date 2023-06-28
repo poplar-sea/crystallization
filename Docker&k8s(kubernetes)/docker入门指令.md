@@ -43,6 +43,10 @@ docker exec -it docker-nginx bash
 docker container ls
 docker rm containername #移除容器
 ```
+## 1.10 提交容器
+```docker
+docker commit 容器id 新镜像名
+```
 ## 2.0 使用网络
 ```js
 sudo docker network ls // 查看宿主机中创建的网络
