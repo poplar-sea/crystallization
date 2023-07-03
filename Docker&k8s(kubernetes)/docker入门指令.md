@@ -56,3 +56,9 @@ sudo docker network rm app // 删除网络
 sudo docker run -it --name test --net=app imagename // 启动镜像时指定--net参数
 sudo docker network connect app test // 将运行中的容器加入网络 app 需要加入的网络名 test 需要加入到网络的容器名
 ```
+## dockerfile文件构建镜像
+```bash
+docker build [选项] <上下文路径/URL/->
+# 当构建的时候，用户会指定构建镜像上下文的路径，docker build 命令得知这个路径后，会将路径下的所有内容打包，然后上传给 Docker 引擎。
+# 这样 Docker 引擎收到这个上下文包后，展开就会获得构建镜像所需的一切文件。
+```
