@@ -5,3 +5,10 @@
     page-break-before: avoid;
     page-break-after: avoid;
   ```
+# 文隐藏滚动条
+```css
+ &::-webkit-scrollbar {
+    width: 0;
+    background-color: transparent;
+  }
+```
