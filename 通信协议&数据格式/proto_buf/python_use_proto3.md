@@ -17,7 +17,10 @@ from grpc_hello.proto import helloworld_pb2_grpc
 class Greeter(helloworld_pb2_grpc.GreeterServicer):
 
     def SayHello(self, request, context):
-        return helloworld_pb2.HelloReply(message='Hello, %s!' % request.name)
+        helloworld = helloworld_pb2.HelloReply()
+        helloworld.message = "你好呀, " +  request.name
+        return helloworld
+        # return helloworld_pb2.HelloReply(message='Hello, %s!' % request.name)
 
 
 def serve():
