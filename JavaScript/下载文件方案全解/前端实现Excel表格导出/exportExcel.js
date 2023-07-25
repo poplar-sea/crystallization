@@ -11,7 +11,7 @@ class ExportExcel {
             throw { type: 'error', message: '请选择需要导出的数据！' }
         }
         let sheetName = 'xlsx复杂表格导出demo'
-        // excel表头
+        // 1. excel表头
         let excelHeader = this.buildHeader(tableHeader)
         // 头部行数，用来固定表头
         let headerRows = excelHeader.length
@@ -61,7 +61,7 @@ class ExportExcel {
      */
     buildHeader(revealList) {
         let excelHeader = []
-        // 构建生成excel表头需要的数据结构
+        // 1.构建生成excel表头需要的数据结构
         this.getHeader(revealList, excelHeader, 0, 0)
         // 多行表头长短不一，短的向长的看齐，不够的补上行合并占位符
         let max = Math.max(...excelHeader.map((a) => a.length))
@@ -77,6 +77,7 @@ class ExportExcel {
      * @param perOffset 前置偏移量
      * @returns {number}  后置偏移量
      */
+    // 使用递归思想结合深度遍历算法
     getHeader(headers, excelHeader, deep, perOffset) {
         let offset = 0
         let cur = excelHeader[deep]
