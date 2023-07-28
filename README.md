@@ -6,3 +6,17 @@ this is a book
 * [Linux](Linux/index.md)
 ## 编辑器
 * [编辑器](Edit/README.md)
+
+# 常用代码结构
+* go
+```go
+```
+* python
+```python
+```
+* javascript
+```javascript
+```
+* 脚本
+```sh
+```
