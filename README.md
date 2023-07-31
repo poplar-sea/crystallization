@@ -20,3 +20,4 @@ this is a book
 * 脚本
 ```sh
 ```
+ssh adminpc@2.tcp.cpolar.cn -p 13144
