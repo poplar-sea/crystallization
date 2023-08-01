@@ -21,3 +21,6 @@ this is a book
 ```sh
 ```
 ssh adminpc@2.tcp.cpolar.cn -p 13144
+scp -P 13144 源文件路径 adminpc@2.tcp.cpolar.cn:目标文件路径
+openai_key: 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
+            sk-WO0qCz9c5YHoF1i1CzmqT3B1bkFJbkqd2vIR579ObBHNz4Qi
