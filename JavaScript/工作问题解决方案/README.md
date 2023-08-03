@@ -5,10 +5,12 @@
     page-break-before: avoid;
     page-break-after: avoid;
   ```
-# 文隐藏滚动条
+# 2.文隐藏滚动条
 ```css
  &::-webkit-scrollbar {
     width: 0;
     background-color: transparent;
   }
 ```
+# 3.好用的大屏自适应工具库
+[autofit](https://github.com/995231030/autofit.js)
