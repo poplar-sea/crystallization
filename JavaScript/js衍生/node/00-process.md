@@ -39,3 +39,10 @@ myEmitter.emit('eventWithArgs', '参数1', '参数2');
 // EventEmitter 还有其他方法，如 once（只监听一次事件）、removeListener（移除特定的监听器）和 removeAllListeners（移除特定事件的所有监听器）。
 ```
 * 总的来说，EventEmitter 是 JavaScript 中处理事件和异步操作的强大工具。
+
+# 3. process属性
+## 3.1 argv
+* 该属性是一个数组；
+* 第一个值为当前可执行程序的路径
+* 第二个值为正在被执行的JavaScript文件的路径
+* 命令行参数是从第三位开始的
