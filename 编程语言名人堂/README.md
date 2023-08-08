@@ -19,3 +19,6 @@
 # 8. Java语言(詹姆斯·高斯林)
 * Java之父
 ![James Gosling](./images/%E8%A9%B9%E5%A7%86%E6%96%AF%C2%B7%E9%AB%98%E6%96%AF%E6%9E%97.jpg)
+
+# 9.nodejs语言(瑞安·达尔)
+![Ryan Dahl](./images/%E7%91%9E%E5%AE%89%C2%B7%E8%BE%BE%E5%B0%94.jpg)
