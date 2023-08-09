@@ -20,4 +20,4 @@
   
 # 4. 国内源
 [豆瓣](https://pypi.douban.com/simple)
-
+pip install -i https://pypi.douban.com/simple
