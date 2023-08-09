@@ -17,4 +17,7 @@
 * 若是在当前文件，__name__ 是```__main__```。
 * 若是导入的文件，__name__是模块名。
 * [__name__](https://www.zhihu.com/question/49136398)
+  
+# 4. 国内源
+[豆瓣](https://pypi.douban.com/simple)
 
