@@ -77,7 +77,7 @@ p.save()
 ```
 ### 3.3.2 查询数据
 ```python
- t = Tweet.get(message="这是一段文字")
+ t = Tweet.get(message=="这是一段文字")
     print(t.user_id)
     print(t.created_date)
     print(t.is_published)

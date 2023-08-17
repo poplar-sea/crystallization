@@ -6,4 +6,5 @@
 * 
 [MySQL教程](https://github.com/jaywcjlove/mysql-tutorial/tree/master)
 [我的数据库](2.tcp.cpolar.cn:12268)
+[数据库查询](https://www.cnblogs.com/skaarl/p/13951169.html)
  mysql -h 2.tcp.cpolar.cn -P 12268 -u root -p 
