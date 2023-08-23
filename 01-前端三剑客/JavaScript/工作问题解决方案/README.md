@@ -14,3 +14,6 @@
 ```
 # 3.好用的大屏自适应工具库
 [autofit](https://github.com/995231030/autofit.js)
+
+# 4.项目中如何区分环境和设置环境变量
+[环境变量](https://juejin.cn/post/6939396963716562974)
