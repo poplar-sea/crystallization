@@ -40,4 +40,23 @@ FPS是图像领域中的定义，是指画面每秒传输帧数，通俗来讲�
 ## 3.5 OfflineAudioRender  (离线音频渲染)
 ## 3.6 ThreadPoolForegroundWorker  (前台线程池工作线程)
 ## 3.7 ThreadPoolServiceThread (线程池服务线程)
+## 3.8 Timings(记录一些关键的时间节点在何时产生的数据信息)
+
 # 4.摘要选项卡
+
+# 5.性能指标
+## 5.1 DomContentLoaded(DCL)
+* 当 HTML 文档完全解析，且所有延迟脚本（```<script defer src="…">``` 和 ```<script type="module">```）```下载```和```执行```完毕后，会触发 ```DOMContentLoaded``` 事件。
+* 它不会等待图片、子框架和异步脚本等其他内容完成加载。
+## 5.2 First Paint(FP)
+* 指的是页面首次绘制的时间点
+## 5.3 First Contentful Paint(FCP)
+* 指的是页面首次内容绘制的时间点
+## 5.4 Largest Contentful Paint(LCP)
+* 指的是页面最大元素被渲染的时间点
+## 5.5 Onload(L)
+* 当在整个页面及所有依赖资源,如```样式表```和```图片```都已完成加载时触发。
+* 可以通过 onload 属性获取此事件。
+
+# 6.Performance面板概览
+![Performance](/images/Chrome_performance.png)

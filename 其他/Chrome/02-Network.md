@@ -1,5 +1,3 @@
-# Performance面板概览
-![Performance](/images/Chrome_performance.png)
 # Network
 ## Newworktab中的timing部分
 ![newwork](/images/network_timing.png)
@@ -26,8 +24,3 @@
 2. 普通的 ```<script> ```、 ```<link>``` 标签、 使用```preload```的预加载，拥有高优先级;
 3. 使用了 ```async/defer``` 的 ```<script>``` 、```as="script"```的预加载资源拥有低优先级;
 4. 使用了```<link rel="stylesheet" href="//s1.hdslb.com/bfs/static/jinkela/long/font/medium.css" media="print" onload="this.media='all'">```这种方式的，和不加 ```as="xxx"```的 ```prefetch``` 预加载，就相当于异步加载，拥有最低优先级
-
-
-
-
-// https://zhuanlan.zhihu.com/p/607779991
