@@ -38,3 +38,5 @@ systemctl start nginx
 * init 是最初的进程管理方式
 * service 是init 的另一种实现
 * systemd 则是一种取代 initd 的解决方案
+# 查询Linux中CPU的版本
+```cat /proc/cpuinfo | grep 'model name' |uniq ```
