@@ -55,6 +55,7 @@ sudo docker network inspect app // 查看网络的详细信息
 sudo docker network rm app // 删除网络
 sudo docker run -it --name test --net=app imagename // 启动镜像时指定--net参数
 sudo docker network connect app test // 将运行中的容器加入网络 app 需要加入的网络名 test 需要加入到网络的容器名
+docker inspect <container_id> | grep -i "IPAddress" 查询容器的网络IP
 ```
 ## dockerfile文件构建镜像
 ```bash
