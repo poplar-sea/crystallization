@@ -1,5 +1,9 @@
 [mikefile介绍](https://seisman.github.io/how-to-write-makefile/rules.html)
-# 1.基础用法
+
+# 1. 介绍
+* make是一个命令行工具，它用于根据Makefile文件执行构建任务。
+# 2.基础用法
+* Make在默认条件下只会执行第一个目标
 ```make
 target ... : prerequisites ...
   recipe
