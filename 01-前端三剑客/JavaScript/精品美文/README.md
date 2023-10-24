@@ -2,3 +2,4 @@
 2. [前端知识普及](https://juejin.cn/post/7244505316234985528?utm_source=gold_browser_extension)
 3. [node执行shell脚本](https://mp.weixin.qq.com/s/5PPl69kfUYoT72A7twRzAg)
 4. [canvas-excel](https://github.com/bojue/canvas-excel)
+5. [使用umi开发h5](https://juejin.cn/post/6981264690710052901)
