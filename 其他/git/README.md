@@ -6,3 +6,8 @@ git remote -v
 ```shell
 git branch -D 分支名
 ```
+
+# git初始化项目
+```shell
+git init
+```

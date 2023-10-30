@@ -55,6 +55,7 @@ sudo docker network inspect app // 查看网络的详细信息
 sudo docker network rm app // 删除网络
 sudo docker run -it --name test --net=app imagename // 启动镜像时指定--net参数
 sudo docker network connect app test // 将运行中的容器加入网络 app 需要加入的网络名 test 需要加入到网络的容器名
+docker inspect <container_id> | grep -i "IPAddress" 查询容器的网络IP
 ```
 ## dockerfile文件构建镜像
 ```bash
@@ -62,3 +63,11 @@ docker build [选项] <上下文路径/URL/->
 # 当构建的时候，用户会指定构建镜像上下文的路径，docker build 命令得知这个路径后，会将路径下的所有内容打包，然后上传给 Docker 引擎。
 # 这样 Docker 引擎收到这个上下文包后，展开就会获得构建镜像所需的一切文件。
 ```
+# 构建自定义镜像
+docker build -f Dockerfile -t test-go-docker:latest .
+[build](https://blog.csdn.net/qq_33801641/article/details/120945037)
+# 构建容器
+[run](https://blog.csdn.net/qq_47346664/article/details/119887657?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522168750273016800192252644%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=168750273016800192252644&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-119887657-null-null.142^v88^koosearch_v1,239^v2^insert_chatgpt&utm_term=docker%20run%20-d&spm=1018.2226.3001.4187)
+
+
+docker run -d --name go_end --net=app_network_server go_end_api 
