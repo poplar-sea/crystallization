@@ -19,3 +19,5 @@ sudo aot-get install nginx
 * 日志放在了/var/log/nginx
 * 并已经在/etc/init.d/下创建了启动脚本nginx
 * 默认的虚拟主机的目录设置在了/var/www/html
+
+[nginx知识](https://mp.weixin.qq.com/s/QGs1PJ9i7KXS7AF23bOCbA)
