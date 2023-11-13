@@ -141,3 +141,10 @@ $(if CONDITION,THEN-PART[,ELSE-PART]) # if 函数的第一个参数 CONDITION表
 current_path = $(shell pwd) # shell命令的运行结果即为shell函数的返回值
 
 ```
+
+# 6. phony
+* phony在Makefile中是"pseudo target"的缩写，意思为“伪目标”。
+* 它并不代表一个真正的文件名，而是一个标签，用来指向一个规则中的命令。
+* 伪目标的主要作用是避免在Makefile中定义的只执行命令的目标和工作目录下的实际文件出现名字冲突。
+* 当在Makefile中定义了一个伪目标后，每次执行make该目标时，都会执行该目标所对应的命令，而不会去考虑该目标文件是否存在。
+* 因此，伪目标常用于构建一些不会生成实际文件的规则，例如清理工作（clean）
