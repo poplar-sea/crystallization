@@ -3,3 +3,4 @@
 3. [node执行shell脚本](https://mp.weixin.qq.com/s/5PPl69kfUYoT72A7twRzAg)
 4. [canvas-excel](https://github.com/bojue/canvas-excel)
 5. [使用umi开发h5](https://juejin.cn/post/6981264690710052901)
+6. [react 基于 dnd-kit 封装的拖拽排序组件](https://juejin.cn/post/7163620889924206629)
