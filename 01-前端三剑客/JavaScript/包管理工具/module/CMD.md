@@ -1,6 +1,7 @@
 # 1. 介绍
 * CMD中，一个模块就是一个文件，格式为：define( factory )；define 是一个全局函数，用来定义模块。
 * 具体实现：SeaJS(阿里的玉伯)
+* MD是懒加载，CMD是延迟执行，在用的时候导入
 # Seajs
 ```js
 // module1.js文件

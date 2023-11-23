@@ -3,6 +3,7 @@
 * 有效避免了采用同步加载方式中导致的页面假死现象。
 * AMD是一种规范，具体实现代表：RequireJS。
 * 一般说AMD也是指RequireJS
+* AMD是预加载，AMD是提前执行，在对应的加载之前导入
 # 2. RequireJS
 * RequireJS的基本思想是，通过```define```方法，将代码定义为模块；通过```require```方法，实现代码的模块加载
 # 2.1 define函数
@@ -61,3 +62,6 @@ require([module], callback);
       // some code here
     });
 ```
+# 4. 缺点
+* require.js解决的问题，多个JS文件可以有依赖关系，被依赖的文件需要早于依赖它的文件加载到浏览器，JS加载的时候浏览器停止页面渲染，
+* 加载文件越多，页面失去响应时间越长
