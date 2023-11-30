@@ -21,3 +21,6 @@
 # 4. 国内源
 [豆瓣](https://pypi.douban.com/simple)
 pip install -i https://pypi.douban.com/simple
+
+# python2.x 和 python3.x 的区别
+* python3.x默认的字符编码是```utf-8```，Python 2.x 默认的字符编码是 ASCII 编码。

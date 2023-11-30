@@ -7,3 +7,4 @@
 7. [浏览器跨tab栏通信原理及实践](https://mp.weixin.qq.com/s/0FjTxS7guYxW4wEXeCjMeg)
 8. [过万start的富文本编辑器1](https://github.com/wangeditor-team/wangEditor)
 9. [过万start的富文本编辑器2](https://github.com/ueberdosis/tiptap)
+10. [Slate.js](https://doodlewind.github.io/slate-doc-cn/)
