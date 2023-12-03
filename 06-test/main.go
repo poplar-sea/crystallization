@@ -9,13 +9,16 @@ const (
 	A = 1 + iota
 	B
 	C
-	_
 	E = iota
 )
 
+var zeroslice *int
+
 func main() {
 	fmt.Println(time.Now().Unix())
-	fmt.Printf("B的值为：%d C的值为：%d E的值为：%d\n", B, C, _)
+	fmt.Printf("B的值为：%d C的值为：%d E的值为：%d\n", B, C, E)
+	// zeroslice = append(zeroslice, 1)
+	fmt.Println(zeroslice)
 }
 
 // func main() {
