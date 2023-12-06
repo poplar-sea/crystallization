@@ -1,4 +1,4 @@
-# 1. ProFoem
+# 1. ProForm
 ## 1.1 开篇有益
 * 如果你想要设置默认值，请使用 ```initialValues```, ```任何直接使用组件 value 和 onChange 的方式都有可能导致值绑定失效```。
 * 如果想要表单联动或者做一些依赖，可以使用 ```render props``` 模式, ```ProFormDependency``` 绝对是最好的选择
