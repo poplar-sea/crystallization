@@ -1,0 +1,1 @@
+[基于kubernets的MinIO对象存储](https://min.io/docs/minio/kubernetes/upstream/)
