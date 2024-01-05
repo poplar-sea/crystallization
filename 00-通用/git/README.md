@@ -30,3 +30,12 @@ git reset --hard 版本号
 # --mixed 重置到add之前 代码在本地不会改变。
 # --hard 该命令表示回退代码到某个版本下，代码在本地会改变到指定版本下，谨慎操作 代码在本地会改变
 ```
+# git add . 撤销
+* ```git reset HEAD ```
+* ```git restore --staged .```
+* ```git reset --mixed```
+# git commit 撤销
+* ```git reset --soft HEAD^```
+* ```git reset --mixed HEAD^```
+* ```git commit --amend``` 修改提交信息
+
