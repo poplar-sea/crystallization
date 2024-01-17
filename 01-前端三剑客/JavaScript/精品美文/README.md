@@ -14,3 +14,7 @@
 14. [能解决 90% 需求的js库](https://juejin.cn/post/7024011415144890405)
 15. [如何使用Vite、TypeScript和Tailwind CSS设置Svelte](https://juejin.cn/post/7167197362635898910)
 16. [React函数式组件使用Ref](https://juejin.cn/post/6844904070843482119)
+
+17. [前端调取摄像头并实现拍照功能](https://mp.weixin.qq.com/s?__biz=MzA4MjA1MDM3Ng==&mid=2450832678&idx=1&sn=cf77d1593a8d55c362d5ed29b33da8dd&chksm=898cbefb9da50ec15fef4608c812bca2f96f9ace68143e939d97e5aedb7ac2aba0a0e43f32a0&scene=126&sessionid=1705463998#rd)
+18. [前端实现微信扫一扫的思路](https://mp.weixin.qq.com/s/fIkHFJCPj2-cexKkImrKXA)
+19. [post为什么会发送两次请求](https://juejin.cn/post/7269952188927017015?utm_source=gold_browser_extension)
