@@ -41,3 +41,7 @@ git reset --hard 版本号
 * ```git reset --mixed HEAD^```
 * ```git commit --amend``` 修改提交信息
 
+# git log 查询提交日志
+```bash
+git log origin/your_branch..your_branch # 查看尚未推送到远程仓库的所有本地提交
+```
