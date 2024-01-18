@@ -44,4 +44,6 @@ git reset --hard 版本号
 # git log 查询提交日志
 ```bash
 git log origin/your_branch..your_branch # 查看尚未推送到远程仓库的所有本地提交
+git log --pretty=oneline --abbrev-commit # 简化提交日志的输出 每个提交会显示为一行 commit hash时只显示其前几个字符（通常是7或8位）
+
 ```
